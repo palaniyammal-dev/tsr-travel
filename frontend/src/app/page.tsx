@@ -123,7 +123,7 @@ export default function Home() {
 
   const handleDirectWhatsAppBook = (vehicle: string) => {
     const text = `Hello TSR TRAVEL, I would like to book the *${vehicle}* for a trip starting from Trichy. Please share pricing and details.`;
-    window.open(`https://wa.me/917904872119?text=${encodeURIComponent(text)}`, "_blank");
+    window.open(`https://wa.me/919791465995?text=${encodeURIComponent(text)}`, "_blank");
   };
 
   return (
@@ -194,7 +194,7 @@ export default function Home() {
               Book Now
             </button>
             <a
-              href="https://wa.me/917904872119?text=Hello%20TSR%20TRAVEL%2C%20I%20would%20like%20to%20book%20a%20tour%20from%20Trichy."
+              href="https://wa.me/919791465995?text=Hello%20TSR%20TRAVEL%2C%20I%20would%20like%20to%20book%20a%20tour%20from%20Trichy."
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-full btn-secondary-gradient flex items-center justify-center gap-2 cursor-pointer shadow-lg"
@@ -202,7 +202,7 @@ export default function Home() {
               WhatsApp Booking
             </a>
             <a
-              href="tel:+917904872119"
+              href="tel:+919791465995"
               className="px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-sm tracking-wider transition cursor-pointer"
             >
               Call Now
@@ -490,11 +490,11 @@ export default function Home() {
                   </Link>
 
                   <a
-                    href="tel:+917904872119"
+                    href="tel:+919791465995"
                     className="inline-flex items-center gap-2 px-5 py-3.5 rounded-2xl bg-white/15 hover:bg-white/25 border border-white/25 text-white font-semibold text-sm backdrop-blur-md transition"
                   >
                     <Phone size={16} />
-                    <span>Trichy Hub: +91 79048 72119</span>
+                    <span>Trichy Hub: +91 97914 65995</span>
                   </a>
                 </div>
               </div>
@@ -729,8 +729,8 @@ export default function Home() {
                 </div>
                 <div>
                   <h4 className="font-display font-bold text-sm text-foreground-theme">Phone & WhatsApp</h4>
-                  <a href="tel:+917904872119" className="text-xs hover:text-primary dark:hover:text-secondary block mt-0.5 transition">
-                    +91 79048 72119
+                  <a href="tel:+919791465995" className="text-xs hover:text-primary dark:hover:text-secondary block mt-0.5 transition">
+                    +91 97914 65995
                   </a>
                 </div>
               </li>

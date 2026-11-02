@@ -1,4 +1,4 @@
-export type DestinationDetails = {
+﻿export type DestinationDetails = {
   slug: string;
   name: string;
   tagline: string;
@@ -61,7 +61,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
       { name: "Hotel Nahar Restaurant", type: "Veg", rating: "4.3★" },
       { name: "Place to Bee", type: "Veg/Non-Veg", rating: "4.5★" }
     ],
-    emergencyContacts: ["Ooty Police: 100", "Government Hospital: +91 423 244 2212", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Ooty Police: 100", "Government Hospital: +91 423 244 2212", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Arrival & Local Exploration", desc: "Start from Trichy. Reach Ooty by noon. Check into hotel. Visit Ooty Lake for evening boating, followed by shopping at Commercial Road." },
       { day: 2, title: "Hills & Gardens Day", desc: "Visit Doddabetta Peak for a panoramic view of the Nilgiris. Post lunch, explore the Government Botanical Garden and Rose Garden." },
@@ -116,7 +116,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
       { name: "Altaf's Cafe (Vattakanal)", type: "Veg/Non-Veg", rating: "4.6★" },
       { name: "Tava Vegetarian Restaurant", type: "Veg", rating: "4.3★" }
     ],
-    emergencyContacts: ["Police Station: +91 4542 241 055", "Van Allen Hospital: +91 4542 241 213", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Police Station: +91 4542 241 055", "Van Allen Hospital: +91 4542 241 213", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Misty Lake Arrival", desc: "Depart Trichy at 5:30 AM. Arrive Kodai by 10 AM. Visit Coaker's Walk and enjoy boating/cycling around Kodaikanal Lake." },
       { day: 2, title: "Cliffs & Forests Exploration", desc: "Explore the Bryant Park, Pine Forest, Guna Caves, Pillar Rocks, and Green Valley View." },
@@ -171,7 +171,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
       { name: "Sweet Rascal Restaurant", type: "Veg/Non-Veg", rating: "4.5★" },
       { name: "Hotel Sri Saravana Bhavan", type: "Veg", rating: "4.1★" }
     ],
-    emergencyContacts: ["Local Police: 100", "Government Hospital Yercaud: +91 4281 222 234", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Local Police: 100", "Government Hospital Yercaud: +91 4281 222 234", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Lake Boating & Sunset Views", desc: "Board the vehicle in Kattur, Trichy. Travel to Yercaud. Check in and visit Emerald Lake. Evening sightseeing at Lady's Seat and Gent's Seat for beautiful sunset valley views." },
       { day: 2, title: "Waterfalls & Return Journey", desc: "Early breakfast. Visit Killiyur Falls, Pagoda Point, and Shevaroy Temple. Check out and drive safely back to Trichy by evening." }
@@ -226,7 +226,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
       { name: "Gujarat Bhavan Restaurant", type: "Veg", rating: "4.2★" }
     ],
     templeTimings: "Morning: 5:00 AM - 1:00 PM | Evening: 3:00 PM - 9:00 PM",
-    emergencyContacts: ["Police Station: +91 4573 221 210", "Govt Hospital: +91 4573 221 233", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Police Station: +91 4573 221 210", "Govt Hospital: +91 4573 221 233", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Spiritual Baths & Temple Darshan", desc: "Leave Trichy. Cross Pamban Bridge and arrive in Rameswaram by noon. Visit Agnitheertham, bathe in 22 Holy wells inside Ramanathaswamy temple, and complete Darshan. Evening visit to APJ Abdul Kalam Memorial." },
       { day: 2, title: "Dhanushkodi Border Exploration & Return", desc: "Early morning drive to Dhanushkodi, see Rama Setu viewpoint and ghost town ruins. Drive back to mainland India. Return to Trichy by late evening." }
@@ -281,7 +281,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
       { name: "Simmakkal Konar Mess", type: "Veg/Non-Veg", rating: "4.2★" }
     ],
     templeTimings: "Morning: 5:00 AM - 12:30 PM | Evening: 4:00 PM - 9:30 PM",
-    emergencyContacts: ["Madurai Police: 100", "Government Rajaji Hospital: +91 452 253 2535", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Madurai Police: 100", "Government Rajaji Hospital: +91 452 253 2535", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Full Day Madurai Heritage Tour", desc: "Start from Kattur, Trichy at 6:00 AM. Reach Madurai by 8:30 AM. Complete Meenakshi Amman Temple Darshan. Have lunch. Explore Thirumalai Nayakkar Palace and Gandhi Museum. Enjoy Jigarthanda in the evening. Drive back safely to Trichy by 10 PM." }
     ],
@@ -335,7 +335,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
       { name: "Saravana Bhavan Kanyakumari", type: "Veg", rating: "4.0★" }
     ],
     templeTimings: "Morning: 4:30 AM - 12:30 PM | Evening: 4:00 PM - 8:30 PM",
-    emergencyContacts: ["Police Station: +91 4652 246 024", "Govt Hospital: +91 4652 246 250", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Police Station: +91 4652 246 024", "Govt Hospital: +91 4652 246 250", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Coastal Arrival & Sunset View", desc: "Depart Trichy. Reach Kanyakumari by afternoon. Visit Kanyakumari Temple, Triveni Sangam bathing, and witness a beautiful sunset at the beach." },
       { day: 2, title: "Vivekananda Rock & Memorials", desc: "Catch a spectacular sunrise. Take the morning ferry to Vivekananda Rock Memorial and Thiruvalluvar Statue. Post lunch, visit Gandhi Memorial and Kamarajar Mandapam." },
@@ -388,7 +388,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
     restaurants: [
       { name: "Maria Restaurant", type: "Veg/Non-Veg", rating: "4.0★" }
     ],
-    emergencyContacts: ["Church Office: +91 4365 263 230", "Police Station: +91 4365 263 222", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Church Office: +91 4365 263 230", "Police Station: +91 4365 263 222", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Complete Marian Pilgrimage", desc: "Start from Kattur, Trichy at 5:30 AM. Arrive in Velankanni by 9:00 AM. Visit the main Basilica, attend the holy mass, explore the offering museum, and walk on the beach. Return back to Trichy by 9:00 PM." }
     ],
@@ -440,7 +440,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
       { name: "Adyar Ananda Bhavan (A2B)", type: "Veg", rating: "4.1★" }
     ],
     templeTimings: "Morning: 6:00 AM - 12:30 PM | Evening: 4:00 PM - 8:30 PM",
-    emergencyContacts: ["Big Temple Office: +91 4362 223 384", "Govt Hospital: +91 4362 230 460", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Big Temple Office: +91 4362 223 384", "Govt Hospital: +91 4362 230 460", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Brihadeeswarar Temple & Palace Tour", desc: "Start from Kattur, Trichy at 7:30 AM. Arrive in Tanjore by 8:45 AM. Visit the majestic Brihadeeswarar Temple. Complete Palace and Museum tour after lunch. Shop for dancing dolls. Return back to Trichy by 6:00 PM." }
     ],
@@ -492,7 +492,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
       { name: "Sri Krishna Vilas", type: "Veg", rating: "4.1★" }
     ],
     templeTimings: "Morning: 6:00 AM - 12:00 PM | Evening: 5:00 PM - 10:00 PM",
-    emergencyContacts: ["Temple Office: +91 4144 222 265", "Police Station: 100", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Temple Office: +91 4144 222 265", "Police Station: 100", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Nataraja Darshan & Pichavaram Mangroves", desc: "Start from Trichy. Reach Chidambaram. Visit Natarajar temple. Post lunch, visit Pichavaram for a boat ride inside the world's second-largest mangrove forest. Return back to Trichy." }
     ],
@@ -543,7 +543,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
     restaurants: [
       { name: "Local River fish stalls", type: "Veg/Non-Veg", rating: "4.3★" }
     ],
-    emergencyContacts: ["Police Station: 100", "Government Primary Clinic: +91 4342 250 230", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Police Station: 100", "Government Primary Clinic: +91 4342 250 230", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Roaring Waterfalls & Coracle Rides", desc: "Depart Trichy at 5:00 AM. Reach Hogenakkal by 10 AM. Hire coracles to go near the falls. Enjoy traditional herbal oil massages and river bath. Lunch near water banks. Return back to Trichy by night." }
     ],
@@ -594,7 +594,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
     restaurants: [
       { name: "Border Rahmath Mess", type: "Veg/Non-Veg", rating: "4.6★" }
     ],
-    emergencyContacts: ["Police Station: 100", "Government Clinic: +91 4633 222 245", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Police Station: 100", "Government Clinic: +91 4633 222 245", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Waterfalls & River Baths", desc: "Start from Trichy. Reach Courtallam. Check in. Take baths in Main Falls and Five Falls. Walk around park areas. Have hot dinner." },
       { day: 2, title: "Tenkasi Temple & Return", desc: "Early breakfast. Visit Old Courtallam Falls, then visit the massive Kasi Viswanathar Temple in Tenkasi. Check out and drive safely back to Trichy." }
@@ -646,7 +646,7 @@ export const DESTINATIONS_DATA: Record<string, DestinationDetails> = {
     restaurants: [
       { name: "Hotel Landmark Restaurant", type: "Veg/Non-Veg", rating: "4.0★" }
     ],
-    emergencyContacts: ["Police Station: 100", "Government Clinic: +91 4179 245 230", "TSR Support: +91 79048 72119"],
+    emergencyContacts: ["Police Station: 100", "Government Clinic: +91 4179 245 230", "TSR Support: +91 97914 65995"],
     itinerary: [
       { day: 1, title: "Lake Boating & Adventure Park", desc: "Leave Trichy. Arrive in Yelagiri by noon. Visit Punganoor Lake for boating. Spend evening at the Nature Park and Yelagiri Adventure Camp." },
       { day: 2, title: "Jalagamparai Falls Trek & Return", desc: "Trek to Swamimalai hills for scenic views, visit Jalagamparai Waterfalls. Return safely back to Trichy by night." }
@@ -710,7 +710,7 @@ export function getDestinationDetails(slug: string): DestinationDetails {
     emergencyContacts: [
       "Local Police: 100",
       "Ambulance Help: 108",
-      "TSR Travels Direct Help: +91 79048 72119"
+      "TSR Travels Direct Help: +91 97914 65995"
     ],
     itinerary: [
       { day: 1, title: "Trichy Departure & Transit Sightseeing", desc: "Board your mini bus or van in Kattur, Trichy. Travel to destination, check in, and visit prime viewpoints." },

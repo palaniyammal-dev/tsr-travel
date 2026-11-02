@@ -163,11 +163,11 @@ export default function DestinationDetailModal({
               </p>
             </div>
             <a
-              href="tel:+917904872119"
+              href="tel:+919791465995"
               className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-primary text-white hover:bg-primary-hover transition whitespace-nowrap shadow-md"
             >
               <PhoneCall className="w-3.5 h-3.5" />
-              <span>7904872119</span>
+              <span>+91 97914 65995</span>
             </a>
           </div>
 

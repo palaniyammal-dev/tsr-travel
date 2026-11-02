@@ -120,11 +120,11 @@ export default function Navbar() {
 
             {/* Quick Call */}
             <a
-              href="tel:+917904872119"
+              href="tel:+919791465995"
               className="flex items-center gap-1.5 px-4 py-2 rounded-full border border-primary/20 hover:border-primary text-primary dark:text-secondary dark:border-secondary/20 dark:hover:border-secondary font-semibold text-xs tracking-wide transition-all cursor-pointer"
             >
               <PhoneCall size={14} />
-              +91 79048 72119
+              +91 97914 65995
             </a>
 
             {/* CTA Book Now */}
@@ -185,7 +185,7 @@ export default function Navbar() {
               <div className="h-px bg-black/10 dark:bg-white/10 my-2" />
               <div className="grid grid-cols-2 gap-3 pt-2">
                 <a
-                  href="tel:+917904872119"
+                  href="tel:+919791465995"
                   className="flex items-center justify-center gap-1.5 py-3 rounded-xl border border-primary/20 text-primary dark:text-secondary dark:border-secondary/20 font-bold text-sm tracking-wide text-center"
                 >
                   <PhoneCall size={16} />

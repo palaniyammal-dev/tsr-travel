@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, status
+﻿from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
 import random
@@ -26,7 +26,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Ooty Botanical Garden, Rose Garden, Doddabetta Peak, Ooty Lake boating, and Pykara Waterfalls.",
         "time": "Driving distance from Trichy is approximately 260 km, taking around 5.5 to 6 hours.",
         "hotels": "Sterling Ooty Fern Hill, Hotel Lakeview, and Accord Highland.",
-        "emergency": "Ooty General Hospital: +91 423 244 2212, TSR Support: +91 79048 72119"
+        "emergency": "Ooty General Hospital: +91 423 244 2212, TSR Support: +91 97914 65995"
     },
     "kodaikanal": {
         "name": "Kodaikanal",
@@ -35,7 +35,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Kodaikanal Lake (rowing/cycling), Coaker's Walk, Pillar Rocks, Guna Caves, and Pine Forest.",
         "time": "Distance from Trichy is 200 km, taking about 4.5 hours.",
         "hotels": "The Carlton, Villa Retreat, and Kodai Resort.",
-        "emergency": "Kodai Govt Hospital: +91 4542 241 292, TSR Support: +91 79048 72119"
+        "emergency": "Kodai Govt Hospital: +91 4542 241 292, TSR Support: +91 97914 65995"
     },
     "yercaud": {
         "name": "Yercaud",
@@ -44,7 +44,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Emerald Lake, Lady's Seat, Killiyur Falls, Pagoda Point, and Shevaroy Temple.",
         "time": "Distance from Trichy is 140 km, taking about 3 hours.",
         "hotels": "GRT Nature Trails Sky Rocca and Sterling Yercaud.",
-        "emergency": "Yercaud Govt Hospital: +91 4281 222 234, TSR Support: +91 79048 72119"
+        "emergency": "Yercaud Govt Hospital: +91 4281 222 234, TSR Support: +91 97914 65995"
     },
     "rameswaram": {
         "name": "Rameswaram",
@@ -53,7 +53,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Ramanathaswamy Temple, 22 Holy wells, Dhanushkodi, and APJ Abdul Kalam Memorial.",
         "time": "Distance from Trichy is 230 km, taking about 4 hours.",
         "hotels": "Daiwik Hotel and Hyatt Place Rameswaram.",
-        "emergency": "Govt Hospital Rameswaram: +91 4573 221 233, TSR Support: +91 79048 72119"
+        "emergency": "Govt Hospital Rameswaram: +91 4573 221 233, TSR Support: +91 97914 65995"
     },
     "madurai": {
         "name": "Madurai",
@@ -62,7 +62,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Meenakshi Amman Temple, Thirumalai Nayakkar Palace, and Gandhi Museum.",
         "time": "Distance from Trichy is 130 km, taking about 2.5 hours.",
         "hotels": "Heritage Madurai and Hotel Supreme.",
-        "emergency": "Rajaji Hospital: +91 452 253 2535, TSR Support: +91 79048 72119"
+        "emergency": "Rajaji Hospital: +91 452 253 2535, TSR Support: +91 97914 65995"
     },
     "kanyakumari": {
         "name": "Kanyakumari",
@@ -71,7 +71,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Vivekananda Rock Memorial, Thiruvalluvar Statue, and Sunset View Point.",
         "time": "Distance from Trichy is 380 km, taking about 7 hours.",
         "hotels": "Hotel Sparsa and Hotel Sea View.",
-        "emergency": "Kanyakumari Govt Hospital: +91 4652 246 250, TSR Support: +91 79048 72119"
+        "emergency": "Kanyakumari Govt Hospital: +91 4652 246 250, TSR Support: +91 97914 65995"
     },
     "velankanni": {
         "name": "Velankanni",
@@ -80,7 +80,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Basilica of Our Lady of Good Health, Offering Museum, and Velankanni Beach.",
         "time": "Distance from Trichy is 150 km, taking about 3.5 hours.",
         "hotels": "Clinton Park Inn and local church rooms.",
-        "emergency": "Church Office: +91 4365 263 230, TSR Support: +91 79048 72119"
+        "emergency": "Church Office: +91 4365 263 230, TSR Support: +91 97914 65995"
     },
     "thanjavur": {
         "name": "Thanjavur",
@@ -89,7 +89,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Brihadeeswarar Temple (Big Temple), Thanjavur Royal Palace, and Saraswathi Mahal Library.",
         "time": "Distance from Trichy is 60 km, taking about 1.2 hours.",
         "hotels": "Svatma Resort and Tanjore Hi-Resort.",
-        "emergency": "Tanjavur Govt Hospital: +91 4362 230 460, TSR Support: +91 79048 72119"
+        "emergency": "Tanjavur Govt Hospital: +91 4362 230 460, TSR Support: +91 97914 65995"
     },
     "chidambaram": {
         "name": "Chidambaram",
@@ -98,7 +98,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Thillai Natarajar Temple and Pichavaram Mangrove Forests.",
         "time": "Distance from Trichy is 130 km, taking about 3 hours.",
         "hotels": "Hotel Saradharam.",
-        "emergency": "Police: 100, TSR Support: +91 79048 72119"
+        "emergency": "Police: 100, TSR Support: +91 97914 65995"
     },
     "hogenakkal": {
         "name": "Hogenakkal",
@@ -107,7 +107,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Roaring Hogenakkal Falls, Coracle Boating, and herbal oil massages.",
         "time": "Distance from Trichy is 220 km, taking about 5 hours.",
         "hotels": "Hotel Tamil Nadu.",
-        "emergency": "Police Station: 100, TSR Support: +91 79048 72119"
+        "emergency": "Police Station: 100, TSR Support: +91 97914 65995"
     },
     "courtallam": {
         "name": "Courtallam",
@@ -116,7 +116,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Main Falls, Five Falls, Old Courtallam Falls, and Tenkasi Temple.",
         "time": "Distance from Trichy is 290 km, taking about 6 hours.",
         "hotels": "Saaral Resort.",
-        "emergency": "Clinic: +91 4633 222 245, TSR Support: +91 79048 72119"
+        "emergency": "Clinic: +91 4633 222 245, TSR Support: +91 97914 65995"
     },
     "yelagiri": {
         "name": "Yelagiri",
@@ -125,7 +125,7 @@ DESTINATION_INFO = {
         "attractions": "Top spots: Punganoor Lake boating, Nature Park, and Swamimalai trekking.",
         "time": "Distance from Trichy is 270 km, taking about 5.5 hours.",
         "hotels": "Sterling Yelagiri.",
-        "emergency": "Govt Clinic: +91 4179 245 230, TSR Support: +91 79048 72119"
+        "emergency": "Govt Clinic: +91 4179 245 230, TSR Support: +91 97914 65995"
     }
 }
 
@@ -182,7 +182,7 @@ def chatbot_assistant(req: ChatRequest):
         elif any(w in msg for w in ["hotel", "stay", "room", "தங்குமிடம்", "விடுதி"]):
             return {"reply": f"Here are popular hotels in {info['name']}: {info['hotels']}"}
         elif any(w in msg for w in ["emergency", "phone", "police", "help", "ஆபத்து"]):
-            return {"reply": info.get("emergency", "You can reach TSR Travels Owner Ravitharan at +91 79048 72119 for any on-road emergency.")}
+            return {"reply": info.get("emergency", "You can reach TSR Travels Owner Ravitharan at +91 97914 65995 for any on-road emergency.")}
 
         # Context-aware general question (e.g. "best places", "what to do here?")
         if is_tamil:
@@ -275,7 +275,7 @@ def plan_trip_assistant(req: TripPlannerRequest):
         "travel_tips": [
             f"Start your driving journey from Trichy early around 5:00 AM to beat highway traffic.",
             "Always follow the driver's recommendations regarding hilly terrains and weather closures.",
-            "Keep emergency contact numbers handy (TSR Travels Support +91 79048 72119)."
+            "Keep emergency contact numbers handy (TSR Travels Support +91 97914 65995)."
         ]
     }
 
@@ -378,7 +378,7 @@ def district_ai_assistant(req: DistrictAIAssistantRequest):
         tips = [
             "கோயில்களுக்கு செல்லும்போது பாரம்பரிய உடை அணிவது நன்று (வேஷ்டி/சேலை).",
             "வெயில் நேரத்தை தவிர்க்க அதிகாலை 5:30 மணிக்கு திருச்சியிலிருந்து பயணத்தைத் தொடங்கவும்.",
-            "TSR பயணப் பாதுகாப்பு எண்: +91 79048 72119."
+            "TSR பயணப் பாதுகாப்பு எண்: +91 97914 65995."
         ]
         if duration == "1_day":
             schedule = [
@@ -409,7 +409,7 @@ def district_ai_assistant(req: DistrictAIAssistantRequest):
         tips = [
             "Dress respectfully in traditional attire (dhoti/saree) when visiting holy temples.",
             "Depart early at 5:30 AM from Trichy to beat highway heat and daytime traffic.",
-            "Keep TSR 24x7 Driver and Travel Support handy: +91 79048 72119."
+            "Keep TSR 24x7 Driver and Travel Support handy: +91 97914 65995."
         ]
         if duration == "1_day":
             schedule = [

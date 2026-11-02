@@ -318,11 +318,11 @@ export default function DistrictAIAssistant({
             </button>
 
             <a
-              href="tel:+917904872119"
+              href="tel:+919791465995"
               className="w-full sm:w-auto py-3.5 px-4 rounded-2xl text-xs sm:text-sm font-bold bg-primary hover:bg-primary-hover text-white flex items-center justify-center gap-2 transition whitespace-nowrap shadow-md"
             >
               <PhoneCall className="w-4 h-4" />
-              <span>+91 79048 72119</span>
+              <span>+91 97914 65995</span>
             </a>
           </div>
         </div>

@@ -86,7 +86,7 @@ ${data.special_notes ? `*Special Notes:* ${data.special_notes}` : ""}
 _Request generated via Website Booking System._`;
 
     const encodedText = encodeURIComponent(whatsappMessage);
-    const whatsappUrl = `https://wa.me/917904872119?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/919791465995?text=${encodedText}`;
 
     try {
       // 1. Submit to FastAPI backend

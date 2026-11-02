@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -89,7 +89,7 @@ export default function DriverDashboardPage() {
               <p className="text-xs text-foreground-theme/60 mt-0.5">
                 {driverProfile.experience} | Rating: <strong className="text-amber-500">{driverProfile.rating}</strong>
               </p>
-              <p className="text-xxs text-foreground-theme/50 mt-1">Owner Contact: Ravitharan (+91 79048 72119)</p>
+              <p className="text-xxs text-foreground-theme/50 mt-1">Owner Contact: Ravitharan (+91 97914 65995)</p>
             </div>
           </div>
 

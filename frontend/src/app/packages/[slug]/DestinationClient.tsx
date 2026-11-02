@@ -235,7 +235,7 @@ export default function DestinationClient({ data }: { data: DestinationDetails }
                   <div className="flex justify-between items-center pt-2 border-t border-primary/5">
                     <span className="font-bold text-xs text-primary dark:text-secondary">{h.price}</span>
                     <a 
-                      href="https://wa.me/917904872119?text=Hello%20TSR%20TRAVEL%2C%20I%20would%20like%20to%20book%20a%20hotel%20near%20Ooty."
+                      href="https://wa.me/919791465995?text=Hello%20TSR%20TRAVEL%2C%20I%20would%20like%20to%20book%20a%20hotel%20near%20Ooty."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-2.5 py-1 text-xxs bg-primary/5 hover:bg-primary hover:text-white text-primary dark:text-secondary rounded font-bold transition"

@@ -234,11 +234,11 @@ export default function DistrictExplorerPage() {
                   {language === "ta" ? "மாருதி ஆம்னி & மகிந்திரா மினி பஸ்" : "Omni Van (7-8) • Mini Bus (20+)"}
                 </span>
                 <a
-                  href="tel:+917904872119"
+                  href="tel:+919791465995"
                   className="flex items-center gap-1.5 bg-secondary text-zinc-950 font-bold px-3 py-1.5 rounded-xl hover:bg-secondary/90 transition shadow-md"
                 >
                   <PhoneCall className="w-4 h-4" />
-                  +91 79048 72119
+                  +91 97914 65995
                 </a>
               </div>
             </div>

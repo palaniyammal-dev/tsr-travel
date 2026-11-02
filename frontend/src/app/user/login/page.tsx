@@ -19,7 +19,7 @@ export default function UserLoginPage() {
 
     setTimeout(() => {
       if (phone && password) {
-        localStorage.setItem("tsr_customer_token", "demo_customer_token_7904872119");
+        localStorage.setItem("tsr_customer_token", "demo_customer_token_9791465995");
         localStorage.setItem("tsr_user_role", "customer");
         router.push("/user/dashboard");
       } else {

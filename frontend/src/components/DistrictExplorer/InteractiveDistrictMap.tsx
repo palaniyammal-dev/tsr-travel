@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useEffect, useRef, useState } from "react";
 import { TouristDestination, District } from "@/lib/districtApi";
@@ -184,7 +184,7 @@ export default function InteractiveDistrictMap({
         .bindPopup(`
           <div style="font-family: inherit; font-size: 13px; min-width: 200px;">
             <div style="font-weight: 700; color: #0b6e4f; margin-bottom: 2px;">TSR Travelling Central Hub</div>
-            <div style="font-size: 11px; color: #666;">Kattur, Trichy • +91 79048 72119</div>
+            <div style="font-size: 11px; color: #666;">Kattur, Trichy • +91 97914 65995</div>
             <div style="margin-top: 6px; font-size: 11px; background: #e6f4ea; color: #137333; padding: 4px 8px; border-radius: 6px; font-weight: 600;">
               Starting point for Tamil Nadu Circuits
             </div>

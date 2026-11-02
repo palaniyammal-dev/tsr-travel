@@ -44,7 +44,7 @@ export default function FloatingButtons() {
 
       {/* Floating Call Button for Quick Dialing */}
       <a
-        href="tel:+917904872119"
+        href="tel:+919791465995"
         className="p-4 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 md:hidden flex items-center justify-center cursor-pointer border border-blue-500/20"
         aria-label="Call TSR Travel"
       >
@@ -53,7 +53,7 @@ export default function FloatingButtons() {
 
       {/* Floating WhatsApp Booking */}
       <a
-        href="https://wa.me/917904872119?text=Hello%20TSR%20TRAVEL%2C%20I%20would%20like%20to%20inquire%20about%20booking%20a%20trip."
+        href="https://wa.me/919791465995?text=Hello%20TSR%20TRAVEL%2C%20I%20would%20like%20to%20inquire%20about%20booking%20a%20trip."
         target="_blank"
         rel="noopener noreferrer"
         className="p-4 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex items-center justify-center cursor-pointer border border-green-400/20"

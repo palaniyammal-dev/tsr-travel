@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -44,7 +44,7 @@ export default function RootLayout({
         "description": "Safe, comfortable, and affordable travel services from Trichy to all over Tamil Nadu. Family trips, school tours, wedding transit, and airport pickups.",
         "url": "https://tsrtravels.in",
         "logo": "https://tsrtravels.in/images/logo.png",
-        "telephone": "+91 79048 72119",
+        "telephone": "+91 97914 65995",
         "email": "tsr@gmail.com",
         "priceRange": "$$",
         "address": {
@@ -68,7 +68,7 @@ export default function RootLayout({
         "@type": "LocalBusiness",
         "@id": "https://tsrtravels.in/#business",
         "name": "TSR TRAVEL",
-        "telephone": "+91 79048 72119",
+        "telephone": "+91 97914 65995",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Kattur",

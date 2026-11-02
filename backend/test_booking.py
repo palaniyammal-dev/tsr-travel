@@ -9,7 +9,7 @@ client = TestClient(app)
 def test_booking():
     payload = {
         "customer_name": "Test Traveler",
-        "phone_number": "7904872119",
+        "phone_number": "9791465995",
         "pickup_location": "TSR Hub, Kattur, Trichy",
         "destination": "Rockfort Ucchi Pillayar Temple, Trichy",
         "trip_date": "2026-10-15T08:00:00",

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -159,7 +159,7 @@ export default function UserDashboardPage() {
                 <Download size={14} /> Download PDF Ticket
               </button>
               <a
-                href="https://wa.me/917904872119?text=Hello%20Ravitharan%2C%20I%20have%20a%20question%20regarding%20my%20booking%20TSR-9081."
+                href="https://wa.me/919791465995?text=Hello%20Ravitharan%2C%20I%20have%20a%20question%20regarding%20my%20booking%20TSR-9081."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2.5 bg-green-500 hover:bg-green-600 text-white rounded-xl text-xs font-bold flex items-center gap-1.5"
@@ -183,7 +183,7 @@ export default function UserDashboardPage() {
             <div className="glass-card p-6 rounded-3xl max-w-md w-full space-y-4 border border-primary/20">
               <h3 className="font-display font-bold text-lg text-foreground-theme">Reschedule Booking #{activeBooking.bookingId}</h3>
               <p className="text-xs text-foreground-theme/70 leading-relaxed">
-                TSR TRAVEL offers free date rescheduling up to 24 hours prior to trip departure! Contact Owner Ravitharan directly on WhatsApp or call +91 79048 72119 to update your travel dates.
+                TSR TRAVEL offers free date rescheduling up to 24 hours prior to trip departure! Contact Owner Ravitharan directly on WhatsApp or call +91 97914 65995 to update your travel dates.
               </p>
               <div className="flex justify-end gap-2 pt-2">
                 <button
@@ -193,7 +193,7 @@ export default function UserDashboardPage() {
                   Close
                 </button>
                 <a
-                  href="https://wa.me/917904872119?text=Hello%20Ravitharan%2C%20I%20would%20like%20to%20reschedule%20booking%20TSR-9081."
+                  href="https://wa.me/919791465995?text=Hello%20Ravitharan%2C%20I%20would%20like%20to%20reschedule%20booking%20TSR-9081."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 text-xs font-bold bg-green-500 text-white rounded-xl"

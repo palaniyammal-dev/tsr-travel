@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -20,7 +20,7 @@ export default function OrganizationLoginPage() {
 
     setTimeout(() => {
       if (email && password) {
-        localStorage.setItem("tsr_org_token", "demo_org_token_7904872119");
+        localStorage.setItem("tsr_org_token", "demo_org_token_9791465995");
         localStorage.setItem("tsr_user_role", "organization");
         router.push("/organization/dashboard");
       } else {
@@ -104,7 +104,7 @@ export default function OrganizationLoginPage() {
                 />
                 Remember Me
               </label>
-              <a href="tel:+917904872119" className="text-primary dark:text-secondary font-semibold hover:underline">
+              <a href="tel:+919791465995" className="text-primary dark:text-secondary font-semibold hover:underline">
                 Contact Support
               </a>
             </div>
@@ -131,7 +131,7 @@ export default function OrganizationLoginPage() {
             </span>
             <p><strong>Owner:</strong> Ravitharan | Kattur, Trichy</p>
             <p><strong>Email:</strong> tsr@gmail.com</p>
-            <p><strong>Phone:</strong> +91 79048 72119</p>
+            <p><strong>Phone:</strong> +91 97914 65995</p>
           </div>
         </div>
 

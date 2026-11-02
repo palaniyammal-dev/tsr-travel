@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -74,7 +74,7 @@ export default function OrganizationDashboardPage() {
         <div className="flex items-center gap-4">
           <div className="hidden sm:block text-right">
             <span className="font-bold text-xs block text-foreground-theme">Ravitharan (Owner)</span>
-            <span className="text-xxs text-foreground-theme/60">Kattur, Trichy | +91 79048 72119</span>
+            <span className="text-xxs text-foreground-theme/60">Kattur, Trichy | +91 97914 65995</span>
           </div>
           <button
             onClick={handleLogout}
@@ -232,7 +232,7 @@ export default function OrganizationDashboardPage() {
                           </td>
                           <td className="p-4">
                             <a
-                              href={`https://wa.me/917904872119?text=Hello%20${encodeURIComponent(b.customer)}%2C%20regarding%20your%20TSR%20Travels%20booking%20${b.id}`}
+                              href={`https://wa.me/919791465995?text=Hello%20${encodeURIComponent(b.customer)}%2C%20regarding%20your%20TSR%20Travels%20booking%20${b.id}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="px-3 py-1 bg-green-500 hover:bg-green-600 text-white rounded-lg text-xxs font-bold inline-block"

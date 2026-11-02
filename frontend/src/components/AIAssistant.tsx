@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect, useRef } from "react";
 import { MessageCircle, X, Send, Mic, MicOff, Volume2, VolumeX, Sparkles } from "lucide-react";
@@ -101,7 +101,7 @@ export default function AIAssistant() {
       console.error("AI assistant API error. Falling back locally.", error);
       setIsTyping(false);
       
-      let localReply = "I am having trouble connecting to my brain right now, but TSR Travels has Mahindra Mini Bus and Maruti Omni ready for your journey! Call Owner Ravitharan at +91 79048 72119.";
+      let localReply = "I am having trouble connecting to my brain right now, but TSR Travels has Mahindra Mini Bus and Maruti Omni ready for your journey! Call Owner Ravitharan at +91 97914 65995.";
       if (userMsg.toLowerCase().includes("weather") || userMsg.toLowerCase().includes("வானிலை")) {
         localReply = "Weather details are currently unavailable offline. Typical Tamil Nadu weather is sunny and warm right now. Ideal for travel!";
       }
